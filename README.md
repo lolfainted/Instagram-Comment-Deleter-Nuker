@@ -1,4 +1,4 @@
-🚀 Overview
+ Overview
 
 Deletes your Instagram comment history safely.
 
@@ -10,7 +10,7 @@ Keeps going until all comments are gone or you stop it manually.
 
 Tested and working as of 9/30/25.
 
-🛠️ Usage
+ Usage
 
 Go to Instagram → More (bottom left) → Your Activity → Comments.
 
@@ -35,7 +35,7 @@ Wait for Instagram to load more
 
 Repeat until all comments are gone
 
-🛑 Manual Stop
+ Manual Stop
 
 If you want to stop it early, paste this into the console:
 
@@ -43,7 +43,7 @@ window.stop();
 
 throw new Error("Stopped manually");
 
-⚠️ Notes
+ Notes
 
 Instagram may update its UI in the future, which could break this script.
 
@@ -51,7 +51,7 @@ If errors occur, increase the delay (pauseBetweenBatches) from 16000 to somethin
 
 Safe batch size is 15–20 max — deleting more per batch can cause errors.
 
-📜 Disclaimer
+ Disclaimer
 
 This project is not affiliated with, endorsed by, or supported by Instagram.
 Use at your own risk. Deleting your comments is permanent and cannot be undone.
