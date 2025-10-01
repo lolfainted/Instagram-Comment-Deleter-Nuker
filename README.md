@@ -40,6 +40,7 @@ Repeat until all comments are gone
 If you want to stop it early, paste this into the console:
 
 window.stop();
+
 throw new Error("Stopped manually");
 
 ⚠️ Notes
