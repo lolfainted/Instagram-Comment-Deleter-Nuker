@@ -9,5 +9,6 @@ Will delete all your Instagram comments 15 at a time until finished or stopped m
 MANUAL STOP
 -------------
 window.stop();
+
 throw new Error("Stopped manually");
 
